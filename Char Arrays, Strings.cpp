@@ -64,8 +64,7 @@ bool checkPalindrome(string str) {
             cleanStr += tolower(c); //sabai lowercase ma convert garne
         }
     }
-    int start = 0;
-    int end = cleanStr.length() - 1;
+    int start = 0; int end = cleanStr.length() - 1;
     while(start < end) {
         if(cleanStr[start] != cleanStr[end]) {
             return false;
@@ -76,7 +75,7 @@ bool checkPalindrome(string str) {
     return true;
 }
 int main() {
-    string str = "c1 O$d@eeD o1c";
+    string str = "c1 O$d@eeD! $ o 1c";
     // string str = "race a car";
     // string str = "racecar";
     if(checkPalindrome(str)) {

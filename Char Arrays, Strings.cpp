@@ -76,12 +76,22 @@ bool checkPalindrome(string str) {
 }
 int main() {
     string str = "c1 O$d@eeD! $ o 1c";
-    // string str = "race a car";
-    // string str = "racecar";
+    string str2 = "race a car";
+    string str3 = "racecar";
     if(checkPalindrome(str)) {
-        cout << "yes" << endl;
+        cout <<endl<< "yes " << str<<" is palindrome!" << endl<<endl;
     } else {
-        cout << "no" << endl;
+        cout << "no "<< str<<" is not a palindrome!" << endl<<endl;
+    }
+    if(checkPalindrome(str2)) {
+        cout << "yes " << str2<<" is palindrome!" << endl<<endl;
+    } else {
+        cout << "no "<< str2<<" is not a palindrome!" << endl<<endl;
+    }
+    if(checkPalindrome(str3)) {
+        cout << "yes " << str3<<" is palindrome!" << endl<<endl;
+    } else {
+        cout << "no "<< str3<<" is not a palindrome!" << endl<<endl;
     }
     return 0;
 }

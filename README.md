@@ -1,55 +1,53 @@
-Data Structures and Algorithms Progress
-Overview
-This repository contains my journey learning Data Structures and Algorithms (DSA) using C++.
+# Data Structures and Algorithms Progress
 
-Topics Covered
-Arrays and Strings
-<input checked="" disabled="" type="checkbox"> Basic array operations
-<input checked="" disabled="" type="checkbox"> Vector implementation
-<input checked="" disabled="" type="checkbox"> String manipulations
-<input checked="" disabled="" type="checkbox"> Character array vs STL string
-<input checked="" disabled="" type="checkbox"> Sorting and searching in arrays
-Problems Solved
-Move Zeroes
+## Overview
+This repository tracks my journey learning DSA using C++. Each implementation includes detailed comments and complexity analysis.
 
-Move all zeroes to end while maintaining order
-Time Complexity: O(n)
-View Solution
-Rotate Array
+## 🎯 Problems Solved
 
-Rotate array by k steps
-Time Complexity: O(n)
-View Solution
-Palindrome Problems
+### Array Operations
+1. **Move Zeroes** ([moveZeros.cpp](./moveZeros.cpp))
+   - Move all zeroes to end while maintaining relative order
+   - Time: O(n), Space: O(1)
+   - Status: ✅ Completed
 
-Integer Palindrome
-String Palindrome with special characters
-View Solutions
-Tower of Hanoi
+2. **Rotate Array** ([rotateArray.cpp](./rotateArray.cpp))
+   - Rotate array by k steps right
+   - Time: O(n), Space: O(1)
+   - Status: ✅ Completed
 
-Classic recursive problem
-Time Complexity: O(2^n)
-View Solution
-STL Components Used
-Vector
-String
-Algorithm library functions
-sort()
-reverse()
-unique()
-Progress Tracking
-<input checked="" disabled="" type="checkbox"> Basic array operations
-<input checked="" disabled="" type="checkbox"> String manipulations
-<input checked="" disabled="" type="checkbox"> STL containers
-<input disabled="" type="checkbox"> Linked Lists
-<input disabled="" type="checkbox"> Stack and Queue
-<input disabled="" type="checkbox"> Trees
-<input disabled="" type="checkbox"> Graphs
-Setup Instructions
-Clone the repository
-Compile with g++: g++ filename.cpp -o filename
-Run: ./filename
-Tools Used
-Visual Studio Code
-MinGW G++ Compiler
-Git for version control
+### String Operations
+1. **Palindrome Checker** ([palindrome.cpp](./palindrome.cpp))
+   - String & Integer palindrome validation
+   - Handles special characters and spaces
+   - Time: O(n), Space: O(1)
+   - Status: ✅ Completed
+
+### Recursion
+1. **Tower of Hanoi** ([towerOfHanoi.cpp](./towerOfHanoi.cpp))
+   - Classic recursive implementation
+   - Time: O(2^n), Space: O(n)
+   - Status: ✅ Completed
+
+## 🛠️ Setup & Running
+```bash
+# Compile
+g++ filename.cpp -o filename
+
+# Run
+.\filename
+```
+
+## 📚 Learning Checklist
+- [x] Array Operations
+- [x] String Manipulation
+- [x] STL Containers
+- [ ] Linked Lists
+- [ ] Stack & Queue
+- [ ] Trees
+- [ ] Graphs
+
+## 🔧 Tools Used
+- Visual Studio Code
+- MinGW G++ Compiler
+- Git for version control

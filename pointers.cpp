@@ -26,6 +26,8 @@ int main() {
     // When you need to change where a pointer points from inside a function, you need a double pointer to do it.
 
     // Double pointer use example:
+
+    
     // Single pointer example first
     int* numberPtr = new int(5);
     cout << "Value at numberPtr: " << *numberPtr << endl;        // Shows 5

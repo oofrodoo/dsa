@@ -96,4 +96,6 @@ int main() {
         cout << "no "<< str3<<" is not a palindrome!" << endl<<endl;
     }
     return 0;
+    
 }
+ 

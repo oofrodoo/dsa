@@ -29,6 +29,21 @@ This repository tracks my journey learning DSA using C++. Each implementation in
    - Time: O(2^n), Space: O(n)
    - Status: ✅ Completed
 
+### Pointers & Memory
+1. **Basic Pointers** ([pointers.cpp](./pointers.cpp))
+   - Pointer declaration and initialization
+   - Memory address operations
+   - Dereferencing
+   - Time: O(1), Space: O(1)
+   - Status: ✅ Completed
+
+2. **Double Pointers** ([doublePointers.cpp](./doublePointers.cpp))
+   - Pointer to pointer concepts
+   - Dynamic 2D arrays
+   - Memory management
+   - Time: O(1), Space: O(1)
+   - Status: ✅ Completed
+
 ## 🛠️ Setup & Running
 ```bash
 # Compile
@@ -42,6 +57,7 @@ g++ filename.cpp -o filename
 - [x] Array Operations
 - [x] String Manipulation
 - [x] STL Containers
+- [x] Pointers & Memory Management
 - [ ] Linked Lists
 - [ ] Stack & Queue
 - [ ] Trees
